@@ -1,0 +1,33 @@
+main > div {
+  padding-top: 150px;
+}
+main > div > h1 {
+  text-align: center;
+  margin-bottom: 100px;
+}
+main > div > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+main .blog {
+  width: 30%;
+  border: 2px solid #000;
+  margin: 10px;
+  padding: 20px;
+}
+main .blog a {
+  color: #000;
+}
+main .blog h1,
+main .blog h5,
+main .blog p {
+  margin: 10px 0;
+}
+
+@media (max-width: 600px) {
+  main .blog {
+    width: 80%;
+    margin: 20px auto;
+  }
+}
